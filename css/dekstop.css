@@ -1,0 +1,11 @@
+@media screen and (min-width:1024px) {
+
+    /* header */
+    #settings-fullversion{
+        display: block;
+    }
+
+    #settings{
+        display: none;
+    }
+}

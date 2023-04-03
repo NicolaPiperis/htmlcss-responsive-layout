@@ -8,3 +8,48 @@
 body{
     font-family: 'PT Sans', sans-serif;
 }
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* header rules */
+header{
+    height: 100px;
+    background-color: #0084fd;
+}
+
+header nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* debug rules */
+/* header */
+/* nav */
+#logo{
+    height: 100%;
+    width: 30%;
+    border: 1px solid green;
+    background-color: grey;
+}
+
+#settings{
+    height: 100%;
+    width: 30%;
+    border: 1px solid green;
+    background-color: grey;
+}
+
+#settings-fullversion{
+    height: 100%;
+    width: 30%;
+    border: 1px solid green;
+    background-color: grey;
+    display: none;
+}
