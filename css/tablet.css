@@ -1,4 +1,6 @@
 @media screen and (min-width:768px){
+
+    /* developer section */
     .row{
         display: flex;
         flex-wrap: wrap;
@@ -11,5 +13,18 @@
 
     .block-developer{
         width: 30%;
+    }
+
+    /* benefits section */
+    #benefits-row{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .benefits-block{
+        width: calc(95% / 2);
     }
 } 

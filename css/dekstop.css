@@ -24,4 +24,17 @@
     #app-development{
         align-self: flex-end;
     }
-}
+
+    /* benefits section */
+    #benefits-row{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .benefits-block{
+        width: calc(95% / 3);
+    }
+} 
