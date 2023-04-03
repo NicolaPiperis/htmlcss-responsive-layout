@@ -27,6 +27,13 @@ header nav{
     align-items: center;
 }
 
+/* main */
+/* developer section */
+.block-developer{
+    background-color: #b5ddff;
+    margin-top: 50px;
+}
+
 
 
 /* debug rules */
@@ -52,4 +59,10 @@ header nav{
     border: 1px solid green;
     background-color: grey;
     display: none;
+}
+
+/* main */
+/* developer section */
+.block-developer{
+    height: 500px;
 }

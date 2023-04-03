@@ -1,0 +1,15 @@
+@media screen and (min-width:768px){
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #demo{
+        width: 60%;
+    }
+
+    .block-developer{
+        width: 30%;
+    }
+} 
