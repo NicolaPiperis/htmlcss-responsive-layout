@@ -8,4 +8,20 @@
     #settings{
         display: none;
     }
+
+    /* main */
+    /* planning section */
+
+    #row-planning{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col-planning{
+        width: calc(90% / 2);
+    }
+
+    #app-development{
+        align-self: flex-end;
+    }
 }

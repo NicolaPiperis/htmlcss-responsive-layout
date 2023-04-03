@@ -16,8 +16,10 @@ body{
 
 /* header rules */
 header{
+    width: 100%;
     height: 100px;
     background-color: #0084fd;
+    position: fixed;
 }
 
 header nav{
@@ -28,41 +30,80 @@ header nav{
 }
 
 /* main */
-/* developer section */
-.block-developer{
-    background-color: #b5ddff;
-    margin-top: 50px;
-}
+    /* developer section */
+    
+    .block-developer{
+        background-color: #b5ddff;
+        margin-top: 50px;
+    }
+
+    #developer{
+        padding-top: 100px;
+    }
+
+    /* planning section */
+
+    #planning{
+        background-color: #9792e4;
+        margin-top: 100px;
+        padding: 50px 0;
+    }
+
+    #app-development{
+        margin-top: 50px;
+    }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+    
 /* debug rules */
+
 /* header */
-/* nav */
-#logo{
-    height: 100%;
-    width: 30%;
-    border: 1px solid green;
-    background-color: grey;
-}
 
-#settings{
-    height: 100%;
-    width: 30%;
-    border: 1px solid green;
-    background-color: grey;
-}
+    /* nav */
+    #logo{
+        height: 100%;
+        width: 30%;
+        border: 1px solid green;
+        background-color: grey;
+    }
 
-#settings-fullversion{
-    height: 100%;
-    width: 30%;
-    border: 1px solid green;
-    background-color: grey;
-    display: none;
-}
+    #settings{
+        height: 100%;
+        width: 30%;
+        border: 1px solid green;
+        background-color: grey;
+    }
+
+    #settings-fullversion{
+        height: 100%;
+        width: 30%;
+        border: 1px solid green;
+        background-color: grey;
+        display: none;
+    }
 
 /* main */
-/* developer section */
-.block-developer{
-    height: 500px;
-}
+
+    /* developer section */
+    .block-developer{
+        min-height: 500px;
+    }
+
+    /* planning section */
+
+    .col-planning{
+        background-color: pink;
+        min-height: 500px;
+    }
