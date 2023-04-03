@@ -29,6 +29,21 @@ header nav{
     align-items: center;
 }
 
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#settings{
+    display: flex;
+    align-items: center;
+}
+
+.fa-bars{
+    font-size: 40px;
+    cursor: pointer;
+}
+
 /* main */
     /* developer section */
     
@@ -121,20 +136,8 @@ footer{
 /* header */
 
     /* nav */
-    #logo{
-        height: 100%;
-        width: 30%;
-        border: 1px solid green;
-        background-color: grey;
-    }
 
-    #settings{
-        height: 100%;
-        width: 30%;
-        border: 1px solid green;
-        background-color: grey;
-    }
-
+   
     #settings-fullversion{
         height: 100%;
         width: 30%;
