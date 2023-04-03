@@ -16,6 +16,7 @@
     }
 
     /* benefits section */
+    
     #benefits-row{
         display:flex;
         justify-content: space-between;
@@ -26,5 +27,22 @@
 
     .benefits-block{
         width: calc(95% / 2);
+    }
+
+    /* about us section */
+
+    #row-aboutus{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #profile-aboutus{
+        width: 25%;
+    }
+
+    #text-aboutus{
+        margin-bottom: 0;
+        width: 65%;
     }
 } 

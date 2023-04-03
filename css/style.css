@@ -81,8 +81,24 @@ header nav{
         margin: 0 auto;
     }
 
+    /* about us section */
 
+    #about-us{
+        padding: 50px 0;
+    }
 
+    #text-aboutus{
+        margin-bottom: 50px;
+    }
+
+    /* call-to-action */
+
+    #call-to-action{
+        background-color: #9792e4;
+        padding: 50px 0;
+    }
+
+    
 
 
 
@@ -153,4 +169,22 @@ header nav{
     .benefits-block{
         min-height: 350px;
         background-color: crimson;
+    }
+
+    /* about-us section */
+
+    #text-aboutus{
+        min-height: 400px;
+        background-color: cyan;
+    }
+
+    #profile-aboutus{
+        min-height: 400px;
+        background-color: cyan;
+    }
+
+    /* call to action section */
+    .start-now{
+        background-color: darkolivegreen;
+        min-height: 800px;
     }
