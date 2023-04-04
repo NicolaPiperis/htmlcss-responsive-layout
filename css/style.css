@@ -62,6 +62,7 @@ header nav{
         background-color: #b5ddff;
         margin-top: 50px;
         border-radius: 35px;
+        min-height: 500px;
     }
 
     #developer{
@@ -147,10 +148,74 @@ header nav{
         padding: 50px 0;
     }
 
-    #app-development{
-        margin-top: 50px;
-    }
+        /* first div */
+        #first-planning-image{
+            max-width: 100%;
+            width: 500px;
+            padding: 40px 0;
+        }
 
+        #strategic-planning h2 {
+            color: white;
+            padding-bottom: 40px;
+            font-size: 28px;
+        }
+
+        #strategic-planning p {
+            color: white;
+            font-size: 17px;
+            padding-bottom: 40px;
+        }
+
+        /* second div */
+        #app-development{
+            margin-top: 50px;
+            background-color: white;
+            min-height: 650px;
+            border-radius: 55px;
+        }
+
+        #container-second-planning-image{
+            text-align: center;
+        }
+
+        #second-planning-image{
+            max-width: 100%;
+            width: 300px;
+            padding: 40px 0;
+        }
+
+        #app-development h3{
+            text-align: center;
+            font-size: 25px;
+            padding-bottom: 35px;
+        }
+
+        #app-development p{
+            font-style: italic;
+            text-align: center;
+            padding-bottom:40px;
+            padding: 0 35px;
+            font-size: 18px;
+        }
+
+        #flex-icon{
+            display: flex;
+            justify-content: center;
+            padding: 30px 0;
+        }
+
+        #download-icon {
+            background-color:#9792e4 ;
+            border-radius: 50%;
+            padding: 10px 20px;
+        }
+
+        .fa-arrow-down{
+            font-size: 20px;
+        }
+
+       
     /* partner section */
 
     .profile{
@@ -220,21 +285,11 @@ footer{
 
     /* nav */
 
-   
-
 /* main */
 
     /* developer section */
-    .block-developer{
-        min-height: 500px;
-    }
-
+    
     /* planning section */
-
-    .col-planning{
-        background-color: pink;
-        min-height: 500px;
-    }
 
     /* partner section */
 
