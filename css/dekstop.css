@@ -25,14 +25,11 @@
         color: white;
     }
 
-    #settings-fullversion button a{
-        text-decoration: none;
+    #settings-fullversion button {
         color: black;
-        font-size: 18px;
+        font-size: 15px;
     }
-
-    
-
+   
     #settings{
         display: none;
     }
