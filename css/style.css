@@ -324,15 +324,110 @@ header nav{
         padding: 50px 0;
     }
 
-    #text-aboutus{
-        margin-bottom: 50px;
-    }
+        /* text about us */
+        #text-aboutus{
+            margin-bottom: 50px;
+        }
+
+        #text-aboutus h2{
+            color:#9792e4 ;
+            font-size: 40px;
+            padding-bottom: 40px;
+        }
+
+        #text-aboutus p{
+            padding: 0 0 45px 0;
+            line-height: 260%;    
+        }
+
+        /* profile about us */
+
+        #container-image-aboutus{
+            width: 300px;
+            height: 300px;
+            position: relative;
+        }
+
+        #aboutus-image{
+            max-width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: contain;
+        }
+
+        .quotes-on-png{
+            font-size: 55px;
+            position: absolute;
+            right: 22%;
+        }
+
+        #profile-aboutus h2 {
+            color: #9792e4;
+            font-size: 28px;
+            padding: 30px 0;
+            line-height: 170%;
+        }
+
+        #profile-aboutus button{
+            color: white;
+            background-color: #9792e4;
+            font-size: 15px;
+            padding: 10px 30px;
+        }
 
     /* call-to-action */
 
     #call-to-action{
         background-color: #9792e4;
         padding: 50px 0;
+    }
+
+    .start-now{
+        text-align: center;
+    }
+
+    #trasparent-title{
+        color: #bbb8ee;
+        padding-bottom:30px;
+        font-size:18px;
+    }
+
+    .start-now h3{
+        color: white;
+        padding-bottom: 50px;
+        font-size: 32px;
+    }
+
+    
+    .start-now h2{
+        color: orange;
+        font-size:48px;
+        padding-bottom: 50px;
+    }
+
+    .start-now p{
+        color: white;
+        padding-bottom: 50px;
+    }
+    
+    .start-now button{
+        color: #9792e4;
+        padding: 20px 60px;
+        font-size: 18px;
+    }
+
+    .start-now div{
+        padding: 50px 40px;
+        color: white;
+        font-size: 15px;
+    }
+
+    .start-now div a{
+        color: white;
+    }
+
+    .fa-circle{
+        font-size: 10px;
     }
 
 /* footer */
@@ -369,27 +464,10 @@ footer{
     
     /* benefits section */
 
-
-    
-
     /* about-us section */
 
-    #text-aboutus{
-        min-height: 400px;
-        background-color: cyan;
-    }
-
-    #profile-aboutus{
-        min-height: 400px;
-        background-color: cyan;
-    }
-
     /* call to action section */
-    .start-now{
-        background-color: darkolivegreen;
-        min-height: 800px;
-    }
-
+    
     /* footer */
 
     .footer-block div{
