@@ -217,16 +217,58 @@ header nav{
 
        
     /* partner section */
+        
+        /* text part */
 
-    .profile{
-        background-color: #9792e4;
-        width: 100%;
-        margin: 50px 0;
-    }
+        #text-partner{
+            margin: 50px 0;
+            text-align: center;
+        }
 
-    #text-partner{
-        margin: 50px 0;
-    }
+        #text-partner h2 {
+            color: #9792e4;
+            padding: 35px 0;
+            font-size: 30px;
+        }
+
+        #text-partner p{
+            font-size: 18px;
+            padding:0 30px ;
+        }
+
+        /* profile/card part */
+
+        .profile{
+            background-color: #9792e4;
+            min-height: 400px;
+            width: 100%;
+            margin: 50px 0;
+            border-radius: 50px;
+        }
+
+        .profile div{
+            text-align: center;
+            padding: 30px 30px;
+        }
+
+        .text-profile p {
+            color: white;
+            font-size: 22px;
+        }
+
+        .name-profile{
+            color: white;
+            font-size: 22px;
+        }
+
+        .card{
+            max-width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+    
 
     /* benefits section */
 
@@ -292,15 +334,7 @@ footer{
     /* planning section */
 
     /* partner section */
-
-    .profile{
-        min-height: 350px;
-    }
-    #text-partner{
-        background-color: burlywood;
-        min-height: 350px;
-    }
-
+    
     /* benefits section */
 
     #benefits h2 {
