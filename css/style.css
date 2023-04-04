@@ -109,7 +109,34 @@ header nav{
             font-size: 15px;    
         }
 
-        /*  */
+        /* clean-code; Web-design; Development; Branding  block */
+        
+            /* icons start */
+
+              .no-image-block div{
+                text-align: center;
+                padding-top: 35px;
+              }  
+
+              .icon-no-image-block{
+                font-size: 70px;
+              }
+                
+            /* icons end */
+
+        .no-image-block h3 {
+            color: #118cfd;
+            font-size: 26px;
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        .no-image-block p {
+            text-align: center;
+            color: #617789;
+            font-size: 18px;
+            padding: 30px 40px;
+        }
 
     
     /* planning section */
