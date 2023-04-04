@@ -52,17 +52,26 @@
                 align-self: flex-end;
             }
 
-            
+
 
     /* planning section */
 
+    #strategic-planning{
+        min-height: 900px;
+    }
+
+    #strategic-planning h2{
+        padding: 70px 0;
+    }
+
     #row-planning{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 25px;
     }
 
     .col-planning{
-        width: calc(90% / 2);
+        width: calc(65% / 2);
     }
 
     #app-development{
