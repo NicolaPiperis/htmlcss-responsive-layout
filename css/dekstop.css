@@ -35,6 +35,25 @@
     }
 
     /* main */
+
+        /* developer section */
+
+            /* demo block */
+
+            #demo{
+                display: flex;
+            }
+
+            #text-iphone-container{
+                width: 500px;
+            }
+
+            #iphone-image-container{
+                align-self: flex-end;
+            }
+
+            
+
     /* planning section */
 
     #row-planning{

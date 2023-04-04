@@ -7,6 +7,7 @@
 
 body{
     font-family: 'PT Sans', sans-serif;
+    line-height: 200%;
 }
 
 .container{
@@ -60,12 +61,57 @@ header nav{
     .block-developer{
         background-color: #b5ddff;
         margin-top: 50px;
+        border-radius: 35px;
     }
 
     #developer{
         padding-top: 100px;
     }
 
+
+    /* demo block */
+        #iphone-image{
+            max-width: 100%;
+            width: 330px;  
+            align-self: flex-end;
+        }
+
+        #iphone-image-container{
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        #demo h3{
+            color: #118cfd;
+            text-align: left;
+            padding-top: 30px;
+            padding-left: 40px;
+            font-size: 26px;
+        }
+
+        #demo p {
+            color: #5c7082;
+            text-align: left;
+            font-size:18px ;
+            padding: 30px 40px;
+        }
+
+        #apple-button{
+            padding-left: 40px;
+            padding-bottom: 30px;
+        }
+
+        #apple-button button {
+            background-color: #0084fd;
+            color: white;
+            padding: 14px 60px;
+            font-size: 15px;    
+        }
+
+        /*  */
+
+    
     /* planning section */
 
     #planning{
