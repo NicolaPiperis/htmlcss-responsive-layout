@@ -19,6 +19,7 @@ button{
     border: none;
     padding: 15px 20px;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 /* header rules */
@@ -268,8 +269,6 @@ header nav{
             border-radius: 50%;
         }
 
-    
-
     /* benefits section */
 
     #benefits{
@@ -278,12 +277,45 @@ header nav{
     }
 
     .benefits-block{
+        min-height: 450px;
+        background-color: white;
+        border-radius: 45px;
         margin-top: 50px;
     }
 
-    #benefits h2{
+    .benefits-maintitle{
         width: 85%;
         margin: 0 auto;
+        font-size: 38px;
+        color: white;
+        text-align: center;
+        line-height: 180%;
+    }
+
+    .number-title{
+        color:#9792e4; 
+        font-size:65px ;
+        padding: 50px 35px;
+    }
+
+    .benefits-block h3 {
+        color:#9792e4;
+        padding-left:35px;
+        padding-bottom: 50px;
+        font-size: 28px;
+    }
+
+    .benefits-block p {
+        color: grey;
+        padding: 0 35px 50px 35px;
+    }
+
+    .benefits-block button {
+        margin: 0 0 50px 35px;
+        background-color: #9792e4;
+        color: white;
+        padding: 13px 55px;
+        font-size: 17px;
     }
 
     /* about us section */
@@ -337,15 +369,8 @@ footer{
     
     /* benefits section */
 
-    #benefits h2 {
-        background-color: red;
-        min-height: 150px;
-    }
 
-    .benefits-block{
-        min-height: 350px;
-        background-color: crimson;
-    }
+    
 
     /* about-us section */
 
