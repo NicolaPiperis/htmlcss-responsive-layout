@@ -2,8 +2,36 @@
 
     /* header */
     #settings-fullversion{
-        display: block;
+        display: flex;
+        justify-content: flex-end;
+        gap: 50px;
+        align-items: center;
     }
+
+    #settings-fullversion ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        align-items: center;
+    }
+
+    #settings-fullversion ul li{
+        list-style: none;
+        font-size: 22px;
+    }
+
+    #settings-fullversion ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #settings-fullversion button a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+
+    
 
     #settings{
         display: none;
